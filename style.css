@@ -874,6 +874,17 @@ PRICING
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
+.plans__blob {
+    z-index: -10;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+    height: 256px;
+    width: 256px;
+    opacity: 0.25;
+}
+
 /*
 
 TESTIMONIALS
