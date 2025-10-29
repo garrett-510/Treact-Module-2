@@ -1040,7 +1040,7 @@ START
     max-width: 1024px;
     padding: 0 32px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -1094,6 +1094,34 @@ START
 .start__button:hover:nth-child(2) {
     background-color: rgba(247, 250, 252);
     color: rgba(100, 21, 255);
+}
+
+#start .row {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.start__blob--1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20rem;
+    width: 20rem;
+    transform: translate(-5rem, 8rem);
+    color: rgba(167, 136, 229);
+    opacity: 0.5;
+}
+
+.start__blob--2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20rem;
+    width: 20rem;
+    transform: translate(5rem, -16rem);
+    color: rgb(80, 17, 204);
+    opacity: 0.5;
 }
 
 /*
